@@ -6,7 +6,7 @@
       "Type" : "AWS::EC2::SecurityGroup",
       "Properties": {
         "GroupDescription" : "Allow http to client host",
-        "VpcId" : "vpc-b83758de",
+        "VpcId" : "xxxxxxxxx",
         "SecurityGroupIngress"  : [
         {
           "IpProtocol" : "tcp",
