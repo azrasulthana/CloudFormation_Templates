@@ -1,0 +1,14 @@
+{
+  "AWSTemplateFormatVersion" : "2010-09-09",
+  "Description" : "Create an EC2 instance",
+  "Resources" : {
+  "EC2Instance": {
+    "Type" : "AWS::EC2::Instance",
+    "Properties" : {
+      "ImageId" : "xxxxxxxxxx",
+      "InstanceType" : "xxxxxxxxx",
+      "KeyName" : "xxxxxxxxxx"
+    }
+  }
+}
+}
